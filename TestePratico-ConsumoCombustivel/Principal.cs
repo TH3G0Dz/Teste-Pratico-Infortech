@@ -24,7 +24,6 @@ class Principal
         double litrosPedro = double.Parse(Console.ReadLine());
         persistencia.ObterCarro(3).Abastecer(litrosPedro);
 
-        // Disparando todos os carros
         Console.WriteLine("\nDisparando os carros:");
 
         Console.Write("Quantos litros o carro do " + persistencia.ObterCarro(1).Portador + " deve rodar? ");
