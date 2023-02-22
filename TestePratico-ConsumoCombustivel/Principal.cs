@@ -26,13 +26,13 @@ class Principal
 
         Console.WriteLine("\nDisparando os carros:");
 
-        Console.Write("Quantos litros o carro do " + persistencia.ObterCarro(1).Portador + " deve rodar? ");
+        Console.Write("Quantos litros o carro de " + persistencia.ObterCarro(1).Portador + " deve rodar? ");
         persistencia.ObterCarro(1).Rodar(double.Parse(Console.ReadLine()));
 
-        Console.Write("Quantos litros o carro do " + persistencia.ObterCarro(2).Portador + " deve rodar? ");
+        Console.Write("Quantos litros o carro de " + persistencia.ObterCarro(2).Portador + " deve rodar? ");
         persistencia.ObterCarro(2).Rodar(double.Parse(Console.ReadLine()));
 
-        Console.Write("Quantos litros o carro do " + persistencia.ObterCarro(3).Portador + " deve rodar? ");
+        Console.Write("Quantos litros o carro de " + persistencia.ObterCarro(3).Portador + " deve rodar? ");
         persistencia.ObterCarro(3).Rodar(double.Parse(Console.ReadLine()));
 
         while (true)
