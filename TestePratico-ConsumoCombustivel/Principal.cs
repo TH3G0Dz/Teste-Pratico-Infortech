@@ -7,7 +7,6 @@ class Principal
     {
         Persistencia persistencia = new Persistencia();
 
-        // cria três carros de portadores quaisquer diferentes
         persistencia.Incluir(50, "Vitor Hugo");
         persistencia.Incluir(55, "Luiz Eduardo");
         persistencia.Incluir(40, "Gilmar Dantas");
