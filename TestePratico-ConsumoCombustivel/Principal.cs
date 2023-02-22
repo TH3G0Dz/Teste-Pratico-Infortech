@@ -13,15 +13,15 @@ class Principal
         persistencia.Incluir(40, "Gilmar Dantas");
 
         Console.WriteLine("Abastecendo os carros:");
-        Console.Write("Quantos litros para o carro do " + persistencia.ObterCarro(1).Portador + "? ");
+        Console.Write("Quantos litros para o carro de " + persistencia.ObterCarro(1).Portador + "? ");
         double litrosJoao = double.Parse(Console.ReadLine());
         persistencia.ObterCarro(1).Abastecer(litrosJoao);
 
-        Console.Write("Quantos litros para o carro do " + persistencia.ObterCarro(2).Portador + "? ");
+        Console.Write("Quantos litros para o carro de " + persistencia.ObterCarro(2).Portador + "? ");
         double litrosMaria = double.Parse(Console.ReadLine());
         persistencia.ObterCarro(2).Abastecer(litrosMaria);
 
-        Console.Write("Quantos litros para o carro do " + persistencia.ObterCarro(3).Portador + "? ");
+        Console.Write("Quantos litros para o carro de " + persistencia.ObterCarro(3).Portador + "? ");
         double litrosPedro = double.Parse(Console.ReadLine());
         persistencia.ObterCarro(3).Abastecer(litrosPedro);
 
